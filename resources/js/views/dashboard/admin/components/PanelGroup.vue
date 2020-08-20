@@ -23,7 +23,7 @@
             Messages
           </div>
           AAAAA
-          <count-to :start-val="0" :end-val="endValMsg" :duration="3000" :decimals="1" :separator="separator" :decimal="decimal" class="card-panel-num" />
+          <count-to :start-val="0" :end-val="endValMsg" :duration="3000" :decimals="0" :separator="separator" :decimal="decimal" class="card-panel-num" />
           VVVVVV
         </div>
       </div>
@@ -59,6 +59,7 @@
 
 <script>
 import CountTo from 'vue-count-to';
+import { fetchMessagesNumber } from '@/api/article';
 
 export default {
   components: {
@@ -66,18 +67,23 @@ export default {
   },
   data() {
     return {
-      endValMsg: '3598', // MessageApiCalculate()
+      endValMsg: 0, // this.countMessages(), // '3598'
       separator: '.',
       decimal: ',',
     };
+  },
+  created() {
+    this.countMessages();
   },
   methods: {
     handleSetLineChartData(type) {
       this.$emit('handleSetLineChartData', type);
     },
-    // MessageApiCalculate() {
-
-    // }
+    async countMessages() {
+      var messages = await fetchMessagesNumber();
+      console.log(messages);
+      this.endValMsg = messages.messagesCount;
+    }
   },
 };
 </script>

@@ -8,6 +8,13 @@ export function fetchList(query) {
   });
 }
 
+export function fetchMessagesNumber() {
+  return request({
+    url: '/messages',
+    method: 'get',
+  });
+}
+
 export function fetchArticle(id) {
   return request({
     url: '/articles/' + id,

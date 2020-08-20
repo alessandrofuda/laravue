@@ -107,6 +107,11 @@ Route::get('/articles', function () {
     return response()->json(new JsonResponse(['items' => $data, 'total' => mt_rand(1000, 10000)]));
 });
 
+Route::get('/messages', function() {
+    $messagesNumber = 12345;
+    return response()->json(['messagesCount' => $messagesNumber]);
+});
+
 Route::get('articles/{id}', function ($id) {
     $article = [
         'id' => $id,
