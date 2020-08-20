@@ -1,0 +1,1738 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cons",
+				"console"
+			],
+			[
+				"Pagato",
+				"Pagato"
+			],
+			[
+				"succe",
+				"successo"
+			],
+			[
+				"Tot",
+				"Totale"
+			],
+			[
+				"Des",
+				"Descrizione"
+			],
+			[
+				"fatt",
+				"fattura"
+			],
+			[
+				"Sele",
+				"Seleziona"
+			],
+			[
+				"li",
+				"lista"
+			],
+			[
+				"Aggiu",
+				"Aggiungi"
+			],
+			[
+				"succ",
+				"successo"
+			],
+			[
+				"Sel",
+				"Seleziona"
+			],
+			[
+				"start",
+				"startDate"
+			],
+			[
+				"btn",
+				"btnClass"
+			],
+			[
+				"te",
+				"text-transform\tproperty"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"View",
+				"ViewModel"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"block",
+				"block-title"
+			],
+			[
+				"content",
+				"content"
+			],
+			[
+				"count",
+				"counter_get"
+			],
+			[
+				"company",
+				"company_addresses"
+			],
+			[
+				"group",
+				"group_name"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"customer",
+				"customers"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"get_",
+				"get_class"
+			],
+			[
+				"cust",
+				"customerData"
+			],
+			[
+				"Create",
+				"CreatePost"
+			],
+			[
+				"addressData",
+				"addressDataObject"
+			],
+			[
+				"addre",
+				"address"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"green",
+				"green-check"
+			],
+			[
+				"easy",
+				"easy-box"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"total",
+				"total_str"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"color",
+				"color_2"
+			],
+			[
+				"attribut",
+				"attribute_string"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"data",
+				"dataPersistor"
+			],
+			[
+				"__",
+				"__construct"
+			],
+			[
+				"process",
+				"process-img"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"_",
+				"_categoryHelper"
+			],
+			[
+				"cover",
+				"cover_letter"
+			],
+			[
+				"cover_le",
+				"cover_letter_score"
+			],
+			[
+				"cv",
+				"cv_check"
+			],
+			[
+				"cv_",
+				"cv_check_score"
+			],
+			[
+				"document",
+				"documentDownload"
+			],
+			[
+				"Vic",
+				"VicController"
+			],
+			[
+				"job",
+				"job_board_score"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"your",
+				"your_motivation"
+			],
+			[
+				"Got",
+				"GotPro"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"ta",
+				"table\tTag"
+			],
+			[
+				"target",
+				"target_country_name"
+			],
+			[
+				"backgro",
+				"background-color\tproperty"
+			],
+			[
+				"service",
+				"serviceId"
+			],
+			[
+				"section",
+				"section-body"
+			],
+			[
+				"sect",
+				"section-body"
+			],
+			[
+				"vic_b2c",
+				"vic_b2c_current_user_chat"
+			],
+			[
+				"Id",
+				"IdQuestionResponse"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"you",
+				"your_goal_code"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"img",
+				"img-fluid"
+			],
+			[
+				"col-md",
+				"col-md-12"
+			],
+			[
+				"i",
+				"italic\tfont-style"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"payment",
+				"paymentCheck"
+			],
+			[
+				"got_re",
+				"got_result_profile"
+			],
+			[
+				"Global",
+				"GlobalTestOutcomes"
+			],
+			[
+				"vic_",
+				"vic_b2c_results"
+			],
+			[
+				"got_pro",
+				"got_pro_completed"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"drop",
+				"dropdown-menu"
+			],
+			[
+				"isn",
+				"is_null"
+			],
+			[
+				"file",
+				"file_path"
+			],
+			[
+				"image",
+				"image_file_path"
+			],
+			[
+				"User",
+				"UserProfileController"
+			],
+			[
+				"profile",
+				"profile_picture"
+			],
+			[
+				"redirect",
+				"redirectTo"
+			],
+			[
+				"ser",
+				"service_id"
+			],
+			[
+				"code",
+				"code_arr"
+			],
+			[
+				"client",
+				"clientToken"
+			],
+			[
+				"Pay",
+				"PaypalInstance"
+			],
+			[
+				"Paypal",
+				"PaypalInstance"
+			],
+			[
+				"paymentForm",
+				"paymentFormPaypal"
+			],
+			[
+				"cliet",
+				"clientToken"
+			],
+			[
+				"create",
+				"createErr"
+			],
+			[
+				"crea",
+				"createErr"
+			],
+			[
+				"Client",
+				"clientToken"
+			],
+			[
+				"out",
+				"outcome_name"
+			],
+			[
+				"outcome",
+				"got_outcome_data_id"
+			],
+			[
+				"got",
+				"got_user"
+			],
+			[
+				"tex",
+				"text-right"
+			],
+			[
+				"hi",
+				"hidden\tvisibility"
+			],
+			[
+				"paddin",
+				"padding\tproperty"
+			],
+			[
+				"la",
+				"label\tTag"
+			],
+			[
+				"col-",
+				"col-md-6"
+			],
+			[
+				"metho",
+				"method\tAttr"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"career_ready",
+				"career_ready_intro"
+			],
+			[
+				"padding",
+				"padding\tproperty"
+			],
+			[
+				"mod",
+				"modal-subtitle"
+			],
+			[
+				"front",
+				"frontend"
+			],
+			[
+				"Admin",
+				"AdminLTE-3"
+			],
+			[
+				"bootstrap",
+				"bootstrap4"
+			],
+			[
+				"skill",
+				"skill_development_video_id"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"already",
+				"already-registered-block"
+			],
+			[
+				"win",
+				"window_h"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"no",
+				"not-allowed\tcursor"
+			],
+			[
+				"sa",
+				"sans-serif"
+			],
+			[
+				"margi",
+				"margin-right\tproperty"
+			],
+			[
+				"ite",
+				"item_name"
+			],
+			[
+				"notificatino",
+				"notifications"
+			],
+			[
+				"global_orientation",
+				"global_orientation_test_pro"
+			],
+			[
+				"succes",
+				"successMessage"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 1008,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/js/router/index.js",
+			"settings":
+			{
+				"buffer_size": 6691,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/js/views/dashboard/index.vue",
+			"settings":
+			{
+				"buffer_size": 575,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/js/views/dashboard/admin/index.vue",
+			"settings":
+			{
+				"buffer_size": 3013,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/js/views/dashboard/admin/components/PieChart.vue",
+			"settings":
+			{
+				"buffer_size": 1915,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/js/views/dashboard/admin/components/PanelGroup.vue",
+			"settings":
+			{
+				"buffer_size": 4218,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control:",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/alessandro/Code/laravue",
+		"/home/alessandro/Code/laravue/resources",
+		"/home/alessandro/Code/laravue/resources/js",
+		"/home/alessandro/Code/laravue/resources/js/views",
+		"/home/alessandro/Code/laravue/resources/js/views/dashboard",
+		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin",
+		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components"
+	],
+	"file_history":
+	[
+		"/tmp/sublime-sftp-browse-1597832640/Fotovoltaiconorditalia_Server_Remoto/var/www/html/wp-content/debug.log",
+		"/tmp/sublime-sftp-browse-1597832716/Fotovoltaiconorditalia_Server_Remoto/var/www/html/wp-config.php",
+		"/home/alessandro/Code/laravue/node_modules/echarts/echarts.all.js",
+		"/home/alessandro/Code/laravue/node_modules/vue-count-to/dist/vue-count-to.min.js",
+		"/home/alessandro/Code/laravue/resources/js/components/GithubCorner/index.vue",
+		"/home/alessandro/Code/laravue/README.md",
+		"/home/alessandro/Code/laravue/resources/js/api/resource.js",
+		"/home/alessandro/Code/laravue/resources/js/api/article.js",
+		"/home/alessandro/Code/laravue/resources/js/api/auth.js",
+		"/home/alessandro/Code/laravue/resources/js/utils/request.js",
+		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/store/modules/user/mutation-types.js",
+		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/store/modules/user/mutations.js",
+		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/store/index.js",
+		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/bootstrap.js",
+		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/app.js",
+		"/home/alessandro/.config/sublime-text-3/Installed Packages/VueFormatter.sublime-package/VUEFormatter.sublime-settings",
+		"/home/alessandro/.config/sublime-text-3/Installed Packages/VueFormatter.sublime-package/.vuebeautifyrc",
+		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/store/modules/auth/actions.js",
+		"/home/alessandro/Code/biz-manager-crater/vendor/laravel/passport/src/Passport.php",
+		"/home/alessandro/Code/biz-manager-crater/app/User.php",
+		"/home/alessandro/Code/biz-manager-crater/app/Http/Controllers/Auth/AccessTokensController.php",
+		"/home/alessandro/Code/biz-manager-crater/routes/api.php",
+		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/plugins/it.json",
+		"/home/alessandro/Code/biz-manager-crater/package.json",
+		"/home/alessandro/Code/biz-manager-crater/docker-compose.yaml",
+		"/home/alessandro/Code/biz-manager-crater/Dockerfile",
+		"/home/alessandro/Code/biz-manager-crater/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php",
+		"/home/alessandro/Code/biz-manager-crater/routes/web.php",
+		"/home/alessandro/Code/biz-manager-crater/config/auth.php",
+		"/home/alessandro/Code/biz-manager-crater/.gitignore",
+		"/home/alessandro/Code/biz-manager-crater/public/assets/js/app.js",
+		"/home/alessandro/Code/biz-manager-crater/storage/oauth-public.key",
+		"/home/alessandro/Code/biz-manager-crater/storage/oauth-private.key",
+		"/home/alessandro/Code/biz-manager-crater/app/Providers/AuthServiceProvider.php",
+		"/home/alessandro/Code/biz-manager-crater/storage/logs/laravel-2020-02-28.log",
+		"/home/alessandro/Code/biz-manager-crater/app/Http/Kernel.php",
+		"/home/alessandro/Code/biz-manager-crater/app/Http/Middleware/Authenticate.php",
+		"/home/alessandro/Code/biz-manager-crater/vendor/composer/autoload_psr4.php",
+		"/home/alessandro/Code/biz-manager-crater/webpack.mix.js",
+		"/home/alessandro/Code/biz-manager-crater/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/home/alessandro/Code/biz-manager-crater/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
+		"/home/alessandro/Code/biz-manager-crater/node_modules/laravel-mix/setup/webpack.config.js",
+		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/views/estimates/View.vue",
+		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/views/estimates/Index.vue",
+		"/home/alessandro/Code/biz-manager-crater/node_modules/big.js/package.json",
+		"/home/alessandro/Code/biz-manager-crater/app/Exceptions/Handler.php",
+		"/home/alessandro/Code/biz-manager-crater/config/logging.php",
+		"/home/alessandro/Code/biz-manager-crater/config/app.php",
+		"/home/alessandro/Code/biz-manager-crater/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+		"/home/alessandro/Code/biz-manager-crater/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php",
+		"/home/alessandro/Code/biz-manager-crater/vendor/laravel/framework/src/Illuminate/Database/Eloquent/ModelNotFoundException.php",
+		"/home/alessandro/Code/biz-manager-crater/vendor/composer/autoload_classmap.php",
+		"/home/alessandro/Code/biz-manager-crater/storage/logs/laravel-2020-02-20.log",
+		"/home/alessandro/Code/biz-manager-crater/config/session.php",
+		"/home/alessandro/Code/biz-manager-crater/app/Http/Requests/CompanyRequest.php",
+		"/home/alessandro/Code/biz-manager-crater/app/Http/Middleware/RedirectIfInstalled.php",
+		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/router.js",
+		"/home/alessandro/Code/biz-manager-crater/public/index.php",
+		"/home/alessandro/Code/biz-manager-crater/storage/logs/laravel-2020-02-14.log",
+		"/home/alessandro/Code/biz-manager-crater/storage/logs/laravel-2020-02-13.log",
+		"/home/alessandro/Code/crater/LICENSE",
+		"/home/alessandro/Code/crater/resources/assets/js/router.js",
+		"/home/alessandro/Code/crater/resources/assets/js/store/modules/settings/preferences/actions.js",
+		"/home/alessandro/Code/crater/routes/api.php",
+		"/home/alessandro/Code/crater/resources/assets/js/app.js",
+		"/home/alessandro/Code/crater/resources/assets/js/plugins/it.json",
+		"/home/alessandro/Code/crater/app/Http/Controllers/CompanyController.php",
+		"/home/alessandro/Code/crater/resources/assets/js/views/settings/Preferences.vue",
+		"/home/alessandro/Code/crater/package.json",
+		"/home/alessandro/Code/crater/readme.md",
+		"/home/alessandro/Code/crater/.env.example",
+		"/home/alessandro/Code/crater/.env",
+		"/home/alessandro/Code/crater/.env.testing",
+		"/home/alessandro/Code/crater/resources/assets/js/store/actions.js",
+		"/home/alessandro/Code/crater/resources/assets/js/components/base/base-select/BaseSelect.vue",
+		"/home/alessandro/Code/crater/resources/assets/js/bootstrap.js",
+		"/home/alessandro/Code/crater/resources/assets/js/plugins/fr.json",
+		"/home/alessandro/Code/crater/resources/assets/js/plugins/pt-br.json",
+		"/home/alessandro/Code/crater/resources/assets/js/views/layouts/partials/TheSiteSidebar.vue",
+		"/home/alessandro/Code/crater/resources/assets/js/store/mutations.js",
+		"/home/alessandro/Code/crater/resources/assets/js/store/mutation-types.js",
+		"/home/alessandro/Code/crater/resources/assets/js/store/modules/user/index.js",
+		"/home/alessandro/Code/crater/resources/assets/js/store/index.js",
+		"/home/alessandro/Code/crater/resources/assets/js/store/getters.js",
+		"/home/alessandro/Code/crater/resources/assets/js/views/layouts/LayoutBasic.vue",
+		"/home/alessandro/Code/crater/resources/assets/js/plugins/en.json",
+		"/home/alessandro/Code/crater/resources/assets/js/views/layouts/LayoutLogin.vue",
+		"/home/alessandro/Code/crater/resources/assets/js/views/layouts/LayoutWizard.vue",
+		"/home/alessandro/Code/crater/resources/assets/js/views/dashboard/Dashboard.vue",
+		"/home/alessandro/Code/crater/routes/web.php",
+		"/home/alessandro/Code/crater/resources/views/app.blade.php",
+		"/home/alessandro/Code/crater/config/app.php",
+		"/home/alessandro/Code/crater/resources/lang/en/pagination.php",
+		"/home/alessandro/Code/crater/resources/lang/en/auth.php",
+		"/home/alessandro/Code/crater/resources/lang/en/passwords.php",
+		"/home/alessandro/Code/crater/resources/lang/en/validation.php",
+		"/home/alessandro/Code/crater/resources/assets/js/views/auth/Login.vue",
+		"/home/alessandro/Code/crater/resources/assets/js/components/chartjs/LineChart.vue",
+		"/home/alessandro/Code/crater/resources/assets/js/store/modules/dashboard/actions.js",
+		"/home/alessandro/Code/crater/resources/assets/js/store/modules/dashboard/mutation-types.js",
+		"/home/alessandro/Code/crater/resources/assets/js/store/modules/dashboard/mutations.js",
+		"/home/alessandro/Code/crater/resources/assets/js/store/modules/dashboard/index.js",
+		"/home/alessandro/Code/crater/resources/assets/js/store/modules/dashboard/getters.js",
+		"/home/alessandro/Code/crater/composer.json",
+		"/home/alessandro/Code/crater/resources/assets/js/helpers/plugin.js",
+		"/home/alessandro/Code/crater/resources/assets/js/helpers/directives.js",
+		"/home/alessandro/Code/crater/resources/assets/js/helpers/utilities.js",
+		"/home/alessandro/Code/crater/node_modules/chart.js/dist/Chart.js",
+		"/home/alessandro/Code/crater/node_modules/chart.js/dist/Chart.min.js",
+		"/home/alessandro/Code/crater/node_modules/@fortawesome/free-solid-svg-icons/faChartLine.js",
+		"/home/alessandro/Code/crater/app/Http/Controllers/DashboardController.php",
+		"/home/alessandro/Code/crater/resources/assets/js/views/estimates/Index.vue",
+		"/home/alessandro/Code/crater/app/Http/Controllers/Auth/AccessTokensController.php",
+		"/home/alessandro/Code/crater/app/Providers/AppServiceProvider.php",
+		"/home/alessandro/Code/crater/resources/assets/js/store/modules/customer/mutations.js",
+		"/home/alessandro/Code/crater/resources/assets/js/store/modules/customer/mutation-types.js",
+		"/home/alessandro/Code/crater/resources/assets/js/store/modules/customer/getters.js",
+		"/home/alessandro/Code/crater/resources/assets/js/store/modules/customer/index.js",
+		"/home/alessandro/Code/crater/resources/assets/js/store/modules/customer/actions.js",
+		"/home/alessandro/Code/crater/resources/assets/js/views/customers/Index.vue",
+		"/home/alessandro/Code/crater/app/Http/Controllers/CustomersController.php",
+		"/home/alessandro/Code/crater/app/Http/Controllers/UsersController.php",
+		"/home/alessandro/Code/crater/docker/Dockerfile"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"*.vue"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"el",
+			"echarts",
+			"Pie",
+			"PieChart",
+			"pie",
+			"chart-wrapper",
+			"panel-group",
+			"dashboard",
+			"card-panel-num"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1008,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/js/router/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3015,
+								3015
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 970.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/js/views/dashboard/index.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/js/views/dashboard/admin/index.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3013,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1590,
+								1590
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/js/views/dashboard/admin/components/PieChart.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								990,
+								990
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/js/views/dashboard/admin/components/PanelGroup.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2112,
+								2112
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 202.0
+	},
+	"pinned_build_system": "",
+	"project": "laravue.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"echarts",
+				"node_modules/echarts/echarts.all.js"
+			],
+			[
+				"vue-count-to",
+				"node_modules/vue-count-to/dist/vue-count-to.min.js"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"composer.json",
+				"composer.json"
+			],
+			[
+				"bootstrapjs",
+				"resources/js/bootstrap.js"
+			],
+			[
+				"composer.lock",
+				"composer.lock"
+			],
+			[
+				"laravel",
+				"storage/logs/laravel.log"
+			],
+			[
+				"dockerfile",
+				"Dockerfile"
+			],
+			[
+				"route/we",
+				"routes/web.php"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"docker",
+				"Dockerfile"
+			],
+			[
+				"dockercompose",
+				"docker-compose.yaml"
+			],
+			[
+				"docker-compose",
+				"docker-compose.yaml"
+			],
+			[
+				"app/user.php",
+				"app/User.php"
+			],
+			[
+				"routes/api",
+				"routes/api.php"
+			],
+			[
+				"routes/web.php",
+				"routes/web.php"
+			],
+			[
+				"laravel.log",
+				"storage/logs/laravel-2020-02-28.log"
+			],
+			[
+				"routes/web",
+				"routes/web.php"
+			],
+			[
+				"autoload.php",
+				"vendor/composer/autoload_psr4.php"
+			],
+			[
+				"webpack.config.js",
+				"node_modules/laravel-mix/setup/webpack.config.js"
+			],
+			[
+				"pluginitjson",
+				"resources/assets/js/plugins/it.json"
+			],
+			[
+				"config/app",
+				"config/app.php"
+			],
+			[
+				"dockeryml",
+				"docker-compose.yaml"
+			],
+			[
+				"license",
+				"LICENSE"
+			],
+			[
+				"readme.md",
+				"readme.md"
+			],
+			[
+				"packagejson",
+				"package.json"
+			],
+			[
+				"baseselect.vue",
+				"resources/assets/js/components/base/base-select/BaseSelect.vue"
+			],
+			[
+				"routesapi",
+				"routes/api.php"
+			],
+			[
+				"appbladephp",
+				"resources/views/app.blade.php"
+			],
+			[
+				"routesweb",
+				"routes/web.php"
+			],
+			[
+				"chartjs",
+				"node_modules/@fortawesome/free-solid-svg-icons/faChartLine.js"
+			],
+			[
+				"chart.js",
+				"node_modules/chart.js/dist/Chart.js"
+			],
+			[
+				"CustomersController",
+				"app/Http/Controllers/CustomersController.php"
+			],
+			[
+				"Dockerfile",
+				"Dockerfile"
+			],
+			[
+				"dockercomposeyml",
+				"docker-compose.yaml"
+			],
+			[
+				"routesapiphp",
+				"routes/api.php"
+			],
+			[
+				"vuecommondevjs",
+				"node_modules/vue/dist/vue.common.dev.js"
+			],
+			[
+				"componentsbasebutton",
+				"resources/assets/js/components/base/BaseButton.vue"
+			],
+			[
+				"package.json",
+				"package.json"
+			],
+			[
+				"ItemCreate",
+				"resources/assets/js/views/items/Create.vue"
+			],
+			[
+				"nuxt",
+				"node_modules/mkdirp/bin/usage.txt"
+			],
+			[
+				"mapGetters",
+				"resources/assets/js/store/modules/tax-type/getters.js"
+			],
+			[
+				"webpackconfigjs",
+				"vendor/facade/ignition/webpack.config.js"
+			],
+			[
+				"webpackmixjs",
+				"webpack.mix.js"
+			],
+			[
+				"craterscss",
+				"resources/assets/sass/crater.scss"
+			],
+			[
+				"crater.css",
+				"public/assets/css/crater.css"
+			],
+			[
+				".yaml",
+				"docker-compose.yaml"
+			],
+			[
+				"web.php",
+				"routes/web.php"
+			],
+			[
+				"resources/views",
+				"resources/views/app.blade.php"
+			],
+			[
+				"public/index",
+				"public/index.php"
+			],
+			[
+				"footer.phtml",
+				"app/design/frontend/Smartwave/porto_child/Smartwave_Porto/templates/footer.phtml"
+			],
+			[
+				"categorydescription.phtml",
+				"vendor/magento/module-catalog/view/frontend/templates/category/description.phtml"
+			],
+			[
+				"porto_childfooter.phtml",
+				"app/design/frontend/Smartwave/porto_child/Smartwave_Porto/templates/footer.phtml"
+			],
+			[
+				"hpbrand.phtml",
+				"app/design/frontend/Smartwave/porto_child/MGS_Brand/templates/brand/sidebar.phtml"
+			],
+			[
+				"Smartwave\\Porto\\Block",
+				"app/code/Smartwave/Porto/Block/CategoryCollection.php"
+			],
+			[
+				"portochildtheme.js",
+				"pub/static/frontend/Smartwave/porto_child/it_IT/js/theme.js"
+			],
+			[
+				"web/js/navigation-menu.js",
+				"app/design/frontend/Smartwave/porto/web/js/navigation-menu.js"
+			],
+			[
+				"portohtml/header.phtml",
+				"app/design/frontend/Smartwave/porto_child/Magento_Theme/templates/html/header.phtml"
+			],
+			[
+				"Magento\\Customer\\Model\\Session",
+				"vendor/magento/module-customer/Model/Session.php"
+			],
+			[
+				"loginLogoutLinks",
+				"app/design/frontend/Smartwave/porto_child/Smartwave_Porto/templates/loginLogoutLinks.phtml"
+			],
+			[
+				"loginLogoutLinks.phml",
+				"var/view_preprocessed/pub/static/app/design/frontend/Smartwave/porto_child/Smartwave_Porto/templates/loginLogoutLinks.phtml"
+			],
+			[
+				"porto_childhtml/header.phtml",
+				"app/design/frontend/Smartwave/porto_child/Magento_Theme/templates/html/header.phtml"
+			],
+			[
+				"breadcrumbs.phtml",
+				"vendor/magento/module-backend/view/adminhtml/templates/widget/breadcrumbs.phtml"
+			],
+			[
+				"vendor/magento/module-theme/view/frontend/templates/html/breadcrumbs.phtml",
+				"vendor/magento/module-theme/view/frontend/templates/html/breadcrumbs.phtml"
+			],
+			[
+				"portocatalog_product_view.xml",
+				"app/design/frontend/Smartwave/porto_child/Magento_Catalog/layout/catalog_product_view.xml"
+			],
+			[
+				"layout.xml",
+				"vendor/codeception/codeception/tests/data/xml/layout.xml"
+			],
+			[
+				"Magento\\Catalog\\ViewModel\\Product\\Breadcrumbs",
+				"vendor/magento/module-catalog/ViewModel/Product/Breadcrumbs.php"
+			],
+			[
+				"Custom\\AddressesOverride\\Controller\\Account\\CreatePost",
+				"app/code/Custom/AddressesOverride/Controller/Account/CreatePost.php"
+			],
+			[
+				"\\Magento\\Theme\\Block\\Html\\Breadcrumbs",
+				"vendor/magento/module-theme/Block/Html/Breadcrumbs.php"
+			],
+			[
+				"breadcrumbsphtml",
+				"vendor/magento/module-theme/view/frontend/templates/html/breadcrumbs.phtml"
+			],
+			[
+				"hpnewproducts",
+				"app/design/frontend/Smartwave/porto_child/Smartwave_Filterproducts/templates/hp_new_products_list.phtml"
+			],
+			[
+				"hpfeaturedproduct",
+				"app/design/frontend/Smartwave/porto_child/Smartwave_Filterproducts/templates/hp_featured_products_list.phtml"
+			],
+			[
+				"porto_childcustomeraccountxml",
+				"app/design/frontend/Smartwave/porto_child/Magento_Customer/layout/customer_account.xml"
+			],
+			[
+				"custom_link.phtml",
+				"app/design/frontend/Smartwave/porto/Smartwave_Porto/templates/html/custom_link.phtml"
+			],
+			[
+				"headerlinks",
+				"vendor/magento/module-customer/Test/Mftf/Section/LoggedInCustomerHeaderLinksSection.xml"
+			],
+			[
+				"\\Magento\\Catalog\\ViewModel\\Product\\Breadcrumbs",
+				"vendor/magento/module-catalog/ViewModel/Product/Breadcrumbs.php"
+			],
+			[
+				"product/breadcrumbs.phtml",
+				"vendor/magento/module-catalog/view/frontend/templates/product/breadcrumbs.phtml"
+			],
+			[
+				"catalog_product_view.xml",
+				"vendor/magento/module-catalog/view/frontend/layout/catalog_product_view.xml"
+			],
+			[
+				"hotitworksphtml",
+				"app/design/frontend/Smartwave/porto_child/Smartwave_Porto/templates/pages/how-it-works.phtml"
+			],
+			[
+				"vendor/magento/module-checkout/view/frontend/templates/onepage.phtml",
+				"vendor/magento/module-checkout/view/frontend/templates/onepage.phtml"
+			],
+			[
+				"brandsphtml",
+				"app/code/MGS/Brand/view/frontend/templates/brands.phtml"
+			],
+			[
+				"hpfeatured",
+				"var/view_preprocessed/pub/static/app/design/frontend/Smartwave/porto_child/Smartwave_Filterproducts/templates/hp_featured_products_list.phtml"
+			],
+			[
+				"hpfeaturedproducts",
+				"app/design/frontend/Smartwave/porto_child/Smartwave_Filterproducts/templates/hp_featured_products_list.phtml"
+			],
+			[
+				"hpnewproductphtml",
+				"app/design/frontend/Smartwave/porto_child/Smartwave_Filterproducts/templates/hp_new_products_list.phtml"
+			],
+			[
+				"porto_childititstyles-m.css",
+				"pub/static/frontend/Smartwave/porto_child/it_IT/css/styles-m.css"
+			],
+			[
+				"porto_childitstyle-m.css",
+				"pub/static/frontend/Smartwave/porto_child/it_IT/css/styles-m.css"
+			],
+			[
+				"porto_childstyles-m.css",
+				"pub/static/frontend/Smartwave/porto_child/it_IT/css/styles-m.css"
+			],
+			[
+				"styles-m.css",
+				"pub/static/frontend/Smartwave/porto_child/it_IT/css/styles-m.css"
+			],
+			[
+				"env",
+				"app/etc/env.php"
+			],
+			[
+				"loginLogoutLinks.phtml",
+				"app/design/frontend/Smartwave/porto_child/Smartwave_Porto/templates/loginLogoutLinks.phtml"
+			],
+			[
+				"vendor/magento/module-customer/Model/Data/Address.php",
+				"vendor/magento/module-customer/Model/Data/Address.php"
+			],
+			[
+				"Magento\\Customer\\Api\\Data\\RegionInterface",
+				"generated/code/Magento/Customer/Api/Data/RegionInterfaceFactory.php"
+			],
+			[
+				"Magento\\Customer\\GroupRepository",
+				"vendor/magento/module-customer/Model/ResourceModel/GroupRepository.php"
+			],
+			[
+				"module-product-scheduler",
+				"vendor/eh/module-product-scheduler/Model/Scheduler.php"
+			],
+			[
+				"hut",
+				"vendor/symfony/http-foundation/Tests/HeaderUtilsTest.php"
+			],
+			[
+				"Smartwave_Porto/templates/html/header.phtml",
+				"app/design/frontend/Smartwave/porto/Smartwave_Porto/templates/html/header.phtml"
+			],
+			[
+				"templates/switch/languages.phtml",
+				"app/design/frontend/Smartwave/porto/Magento_Store/templates/switch/languages.phtml"
+			],
+			[
+				"contactindexpost",
+				"vendor/magento/module-contact/Controller/Index/Post.php"
+			],
+			[
+				"customeraccount",
+				"dev/tests/functional/tests/app/Magento/Customer/Test/Page/CustomerAccountIndex.xml"
+			],
+			[
+				"detector/registration.php",
+				"dev/tests/api-functional/_files/Magento/TestModuleDefaultHydrator/registration.php"
+			],
+			[
+				"config.php",
+				"app/etc/config.php"
+			],
+			[
+				"Magento\\Framework\\App\\Action\\Action",
+				"vendor/magento/framework/App/Action/Action.php"
+			],
+			[
+				"Magento\\Customer\\Controller\\Action",
+				"vendor/magento/module-customer/Controller/Address/NewAction.php"
+			],
+			[
+				"newcustomer.phtml",
+				"vendor/magento/module-customer/view/frontend/templates/newcustomer.phtml"
+			],
+			[
+				"register.phtml",
+				"vendor/magento/module-customer/view/frontend/templates/form/register.phtml"
+			],
+			[
+				"porto_childregister.phtml",
+				"app/design/frontend/Smartwave/porto_child/Magento_Customer/templates/OLD.f_orm/register.phtml"
+			],
+			[
+				"account.phtml",
+				"vendor/magento/module-sales/view/adminhtml/templates/order/create/form/account.phtml"
+			],
+			[
+				"accountcreate",
+				"vendor/magento/module-customer/Controller/Account/Create.php"
+			],
+			[
+				"vendor/magento/module-eav/Model/Attribute/Data/Text.php",
+				"vendor/magento/module-eav/Model/Attribute/Data/Text.php"
+			],
+			[
+				"customerrepository",
+				"vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php"
+			],
+			[
+				"accountmanagement",
+				"vendor/magento/module-customer/Model/AccountManagement.php"
+			],
+			[
+				"customeraccountcreatepost",
+				"vendor/magento/module-customer/Controller/Account/CreatePost.php"
+			],
+			[
+				"Magento\\Customer\\Controller\\AbstractAccount",
+				"vendor/magento/module-customer/Controller/AbstractAccount.php"
+			],
+			[
+				"\\Magento\\Customer\\Controller\\Account\\CreatePost",
+				"vendor/magento/module-customer/Controller/Account/CreatePost.php"
+			],
+			[
+				"Magento\\Framework\\HTTP\\PhpEnvironment\\Request",
+				"vendor/magento/framework/HTTP/PhpEnvironment/Request.php"
+			],
+			[
+				"Magento\\Framework\\App\\Request\\Http",
+				"vendor/magento/framework/App/Request/Http.php"
+			],
+			[
+				"Magento\\Customer\\Model\\Data\\Customer",
+				"vendor/magento/module-customer/Model/Data/Customer.php"
+			],
+			[
+				"Magento\\Customer\\Api\\Data\\CustomerInterface",
+				"vendor/magento/module-customer/Api/Data/CustomerInterface.php"
+			],
+			[
+				"Http",
+				"vendor/magento/framework/App/Http.php"
+			],
+			[
+				"Magento\\Eav\\Model\\Entity\\Attribute\\AbstractAttribute",
+				"vendor/magento/module-eav/Model/Entity/Attribute/AbstractAttribute.php"
+			],
+			[
+				"\\Magento\\Eav\\Model\\Entity\\Attribute",
+				"vendor/magento/module-eav/Model/Entity/Attribute.php"
+			],
+			[
+				"\\Magento\\Eav\\Model\\Attribute",
+				"vendor/magento/module-eav/Model/Attribute.php"
+			],
+			[
+				"Magento\\Customer\\Model\\Attribute",
+				"vendor/magento/module-customer/Model/Attribute.php"
+			],
+			[
+				"module-customercustomerrepository.php",
+				"vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php"
+			],
+			[
+				"customerrepositoryinterface",
+				"vendor/magento/module-customer/Api/CustomerRepositoryInterface.php"
+			],
+			[
+				"customer/controller/account/edit",
+				"vendor/magento/module-customer/Controller/Account/EditPost.php"
+			],
+			[
+				"magento/module-eav/Model/Attribute/Data/Text.php",
+				"vendor/magento/module-eav/Model/Attribute/Data/Text.php"
+			],
+			[
+				"InstallData.php",
+				"vendor/dotmailer/dotmailer-magento2-extension/Setup/InstallData.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "lara",
+		"selected_items":
+		[
+			[
+				"lara",
+				"~/Code/lara-vue.sublime-project"
+			],
+			[
+				"cer",
+				"~/Code/cerutti-aftersale.sublime-project"
+			],
+			[
+				"sof",
+				"~/Code/sofidel.sublime-workspace"
+			],
+			[
+				"laravue",
+				"~/Code/laravue/laravue.sublime-project"
+			],
+			[
+				"lara-vue",
+				"~/Code/lara-vue.sublime-project"
+			],
+			[
+				"laravu",
+				"~/Code/lara-vue.sublime-project"
+			],
+			[
+				"informatic",
+				"~/Code/informatic-solutions.sublime-project"
+			],
+			[
+				"info",
+				"~/Code/informatic-solutions.sublime-project"
+			],
+			[
+				"infor",
+				"~/Code/informatic-solutions.sublime-project"
+			],
+			[
+				"",
+				"~/Code/wexplore-smartworkingChat.sublime-project"
+			],
+			[
+				"crater-fo",
+				"~/Code/crater-fork.sublime-project"
+			],
+			[
+				"mum",
+				"~/Code/mumac-academy-wordpress.sublime-project"
+			],
+			[
+				"wexplore",
+				"~/Code/wexplore-demo.sublime-project"
+			],
+			[
+				"no-waste",
+				"~/Code/no-waste.sublime-project"
+			],
+			[
+				"cra",
+				"~/Code/crater.sublime-project"
+			],
+			[
+				"no-was",
+				"~/Code/no-waste.sublime-project"
+			],
+			[
+				"no",
+				"~/Code/no-waste.sublime-project"
+			],
+			[
+				"crat",
+				"~/Code/crater.sublime-project"
+			],
+			[
+				"wexploredemo",
+				"~/Code/wexplore-demo.sublime-project"
+			],
+			[
+				"wexplo",
+				"~/Code/wexplore-demo.sublime-project"
+			],
+			[
+				"wexplor",
+				"~/Code/wexplore.sublime-project"
+			],
+			[
+				"enjo",
+				"~/Code/enjoylurisia.sublime-project"
+			],
+			[
+				"24",
+				"~/Code/cerutti-24-7.sublime-project"
+			],
+			[
+				"enj",
+				"~/Code/enjoylurisia.sublime-project"
+			],
+			[
+				"wex",
+				"~/Code/wexplore.sublime-project"
+			],
+			[
+				"cerutti",
+				"~/Code/cerutti-aftersale.sublime-project"
+			],
+			[
+				"sagde",
+				"~/Code/sagde.sublime-project"
+			],
+			[
+				"cerutti-af",
+				"~/Code/cerutti-aftersale.sublime-project"
+			],
+			[
+				"cerutt",
+				"~/Code/cerutti-aftersale.sublime-project"
+			],
+			[
+				"sag",
+				"~/Code/sagde.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 377.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
