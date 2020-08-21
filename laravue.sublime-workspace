@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"end",
+				"endValMsg"
+			],
+			[
+				"messa",
+				"messagesNumber"
+			],
+			[
 				"cons",
 				"console"
 			],
@@ -506,27 +514,11 @@
 			[
 				"notificatino",
 				"notifications"
-			],
-			[
-				"global_orientation",
-				"global_orientation_test_pro"
-			],
-			[
-				"succes",
-				"successMessage"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": ".env",
-			"settings":
-			{
-				"buffer_size": 1008,
-				"line_ending": "Unix"
-			}
-		},
 		{
 			"file": "resources/js/router/index.js",
 			"settings":
@@ -536,34 +528,19 @@
 			}
 		},
 		{
-			"file": "resources/js/views/dashboard/index.vue",
-			"settings":
-			{
-				"buffer_size": 575,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "resources/js/views/dashboard/admin/index.vue",
 			"settings":
 			{
-				"buffer_size": 3013,
+				"buffer_size": 3031,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/js/views/dashboard/admin/components/PieChart.vue",
+			"file": "resources/js/views/dashboard/admin/components/LineChart.vue",
 			"settings":
 			{
-				"buffer_size": 1915,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/js/views/dashboard/admin/components/PanelGroup.vue",
-			"settings":
-			{
-				"buffer_size": 4218,
+				"buffer_size": 3580,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -639,25 +616,51 @@
 	"expanded_folders":
 	[
 		"/home/alessandro/Code/laravue",
+		"/home/alessandro/Code/laravue/docker",
 		"/home/alessandro/Code/laravue/resources",
 		"/home/alessandro/Code/laravue/resources/js",
 		"/home/alessandro/Code/laravue/resources/js/views",
 		"/home/alessandro/Code/laravue/resources/js/views/dashboard",
 		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin",
-		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components"
+		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components",
+		"/home/alessandro/Code/laravue/routes"
 	],
 	"file_history":
 	[
+		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components/PanelGroup.vue",
+		"/home/alessandro/Code/laravue/resources/js/api/article.js",
+		"/home/alessandro/Code/laravue/routes/api.php",
+		"/home/alessandro/Code/laravue/resources/js/views/table/DragTable.vue",
+		"/home/alessandro/Code/laravue/node_modules/element-ui/packages/calendar/src/main.vue",
+		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components/TransactionTable.vue",
+		"/home/alessandro/Code/laravue/resources/js/api/user.js",
+		"/home/alessandro/Code/laravue/resources/js/api/resource.js",
+		"/home/alessandro/Code/laravue/node_modules/element-ui/packages/alert/src/main.vue",
+		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components/TodoList/index.vue",
+		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components/TodoList/index.scss",
+		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components/TodoList/Todo.vue",
+		"/home/alessandro/Code/laravue/resources/js/router/modules/table.js",
+		"/home/alessandro/Code/laravue/resources/js/utils/request.js",
+		"/home/alessandro/Code/laravue/docker-compose.yml",
+		"/home/alessandro/Code/laravue/.env",
+		"/home/alessandro/Code/laravue/app/Http/Resources/UserResource.php",
+		"/home/alessandro/Code/laravue/resources/js/bootstrap.js",
+		"/home/alessandro/Code/laravue/resources/js/views/dashboard/index.vue",
+		"/home/alessandro/Code/laravue/resources/js/utils/validate.js",
+		"/home/alessandro/Code/laravue/resources/js/utils/index.js",
+		"/home/alessandro/Code/laravue/resources/js/utils/auth.js",
+		"/home/alessandro/Code/laravue/Dockerfile",
+		"/home/alessandro/Code/laravue/laravue-entrypoint.sh",
+		"/home/alessandro/Code/laravue/docker/docker.env",
+		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/index.vue",
+		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components/PieChart.vue",
 		"/tmp/sublime-sftp-browse-1597832640/Fotovoltaiconorditalia_Server_Remoto/var/www/html/wp-content/debug.log",
 		"/tmp/sublime-sftp-browse-1597832716/Fotovoltaiconorditalia_Server_Remoto/var/www/html/wp-config.php",
 		"/home/alessandro/Code/laravue/node_modules/echarts/echarts.all.js",
 		"/home/alessandro/Code/laravue/node_modules/vue-count-to/dist/vue-count-to.min.js",
 		"/home/alessandro/Code/laravue/resources/js/components/GithubCorner/index.vue",
 		"/home/alessandro/Code/laravue/README.md",
-		"/home/alessandro/Code/laravue/resources/js/api/resource.js",
-		"/home/alessandro/Code/laravue/resources/js/api/article.js",
 		"/home/alessandro/Code/laravue/resources/js/api/auth.js",
-		"/home/alessandro/Code/laravue/resources/js/utils/request.js",
 		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/store/modules/user/mutation-types.js",
 		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/store/modules/user/mutations.js",
 		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/store/index.js",
@@ -751,26 +754,7 @@
 		"/home/alessandro/Code/crater/resources/assets/js/store/modules/dashboard/mutations.js",
 		"/home/alessandro/Code/crater/resources/assets/js/store/modules/dashboard/index.js",
 		"/home/alessandro/Code/crater/resources/assets/js/store/modules/dashboard/getters.js",
-		"/home/alessandro/Code/crater/composer.json",
-		"/home/alessandro/Code/crater/resources/assets/js/helpers/plugin.js",
-		"/home/alessandro/Code/crater/resources/assets/js/helpers/directives.js",
-		"/home/alessandro/Code/crater/resources/assets/js/helpers/utilities.js",
-		"/home/alessandro/Code/crater/node_modules/chart.js/dist/Chart.js",
-		"/home/alessandro/Code/crater/node_modules/chart.js/dist/Chart.min.js",
-		"/home/alessandro/Code/crater/node_modules/@fortawesome/free-solid-svg-icons/faChartLine.js",
-		"/home/alessandro/Code/crater/app/Http/Controllers/DashboardController.php",
-		"/home/alessandro/Code/crater/resources/assets/js/views/estimates/Index.vue",
-		"/home/alessandro/Code/crater/app/Http/Controllers/Auth/AccessTokensController.php",
-		"/home/alessandro/Code/crater/app/Providers/AppServiceProvider.php",
-		"/home/alessandro/Code/crater/resources/assets/js/store/modules/customer/mutations.js",
-		"/home/alessandro/Code/crater/resources/assets/js/store/modules/customer/mutation-types.js",
-		"/home/alessandro/Code/crater/resources/assets/js/store/modules/customer/getters.js",
-		"/home/alessandro/Code/crater/resources/assets/js/store/modules/customer/index.js",
-		"/home/alessandro/Code/crater/resources/assets/js/store/modules/customer/actions.js",
-		"/home/alessandro/Code/crater/resources/assets/js/views/customers/Index.vue",
-		"/home/alessandro/Code/crater/app/Http/Controllers/CustomersController.php",
-		"/home/alessandro/Code/crater/app/Http/Controllers/UsersController.php",
-		"/home/alessandro/Code/crater/docker/Dockerfile"
+		"/home/alessandro/Code/crater/composer.json"
 	],
 	"find":
 	{
@@ -781,6 +765,15 @@
 		"height": 101.0,
 		"where_history":
 		[
+			"*.*",
+			"*.js",
+			"*.vue",
+			"*.*",
+			"*.vue",
+			"*.*",
+			"*.js",
+			"*.vue",
+			"*.*",
 			"*.vue"
 		]
 	},
@@ -789,6 +782,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lineChartData",
+			"handler",
+			"elr",
+			"elrow",
+			"el-row",
+			"handleSetLineChartData",
+			"emit",
+			"post(",
+			"await",
+			"methods: {",
+			"fetchList",
+			"toFixed",
+			"tofixed",
+			"data() {",
+			"MessageApiCalculate",
+			"endValMsg",
+			"card-panel-col",
+			"dashboard",
+			"-52",
+			"52px",
+			"toggle-all",
+			"class=\"todoapp\"",
+			"url",
+			"MIX_BASE_API",
+			"drag-table",
+			"drag",
+			"axios",
+			"lara_vue",
 			"el",
 			"echarts",
 			"Pie",
@@ -815,42 +836,11 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": ".env",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1008,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								475,
-								475
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "resources/js/router/index.js",
 					"semi_transient": false,
 					"settings":
@@ -862,8 +852,8 @@
 						"selection":
 						[
 							[
-								3015,
-								3015
+								3082,
+								3082
 							]
 						],
 						"settings":
@@ -879,57 +869,24 @@
 						"translation.y": 970.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "resources/js/views/dashboard/index.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 575,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								226,
-								226
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "resources/js/views/dashboard/admin/index.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3013,
+						"buffer_size": 3031,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1590,
-								1590
+								2940,
+								2940
 							]
 						],
 						"settings":
@@ -942,60 +899,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "resources/js/views/dashboard/admin/components/PieChart.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1915,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								990,
-								990
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1122.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "resources/js/views/dashboard/admin/components/PanelGroup.vue",
+					"buffer": 2,
+					"file": "resources/js/views/dashboard/admin/components/LineChart.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4218,
+						"buffer_size": 3580,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2112,
-								2112
+								723,
+								723
 							]
 						],
 						"settings":
@@ -1070,16 +994,36 @@
 		"selected_items":
 		[
 			[
+				"routesapi",
+				"routes/api.php"
+			],
+			[
+				"dockercompose",
+				"docker-compose.yml"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"laravueentry",
+				"laravue-entrypoint.sh"
+			],
+			[
+				"dockerfile",
+				"Dockerfile"
+			],
+			[
+				"dockercomposeyml",
+				"docker-compose.yml"
+			],
+			[
 				"echarts",
 				"node_modules/echarts/echarts.all.js"
 			],
 			[
 				"vue-count-to",
 				"node_modules/vue-count-to/dist/vue-count-to.min.js"
-			],
-			[
-				".env",
-				".env"
 			],
 			[
 				"composer.json",
@@ -1098,10 +1042,6 @@
 				"storage/logs/laravel.log"
 			],
 			[
-				"dockerfile",
-				"Dockerfile"
-			],
-			[
 				"route/we",
 				"routes/web.php"
 			],
@@ -1112,10 +1052,6 @@
 			[
 				"docker",
 				"Dockerfile"
-			],
-			[
-				"dockercompose",
-				"docker-compose.yaml"
 			],
 			[
 				"docker-compose",
@@ -1178,10 +1114,6 @@
 				"resources/assets/js/components/base/base-select/BaseSelect.vue"
 			],
 			[
-				"routesapi",
-				"routes/api.php"
-			],
-			[
 				"appbladephp",
 				"resources/views/app.blade.php"
 			],
@@ -1204,10 +1136,6 @@
 			[
 				"Dockerfile",
 				"Dockerfile"
-			],
-			[
-				"dockercomposeyml",
-				"docker-compose.yaml"
 			],
 			[
 				"routesapiphp",
@@ -1576,10 +1504,6 @@
 			[
 				"magento/module-eav/Model/Attribute/Data/Text.php",
 				"vendor/magento/module-eav/Model/Attribute/Data/Text.php"
-			],
-			[
-				"InstallData.php",
-				"vendor/dotmailer/dotmailer-magento2-extension/Setup/InstallData.php"
 			]
 		],
 		"width": 0.0
@@ -1587,7 +1511,7 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "lara",
+		"last_filter": "",
 		"selected_items":
 		[
 			[

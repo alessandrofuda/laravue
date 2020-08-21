@@ -272,9 +272,12 @@ export default {
     },
 
     async getList() {
+      // console.log(this.query);
       const { limit, page } = this.query;
+      // console.log(limit);
+      // console.log(page);
       this.loading = true;
-      const { data, meta } = await userResource.list(this.query);
+      const { data, meta } = await userResource.list(this.query); // API
       this.list = data;
       this.list.forEach((element, index) => {
         element['index'] = (page - 1) * limit + index + 1;
@@ -434,30 +437,30 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.edit-input {
-  padding-right: 100px;
-}
-.cancel-btn {
-  position: absolute;
-  right: 15px;
-  top: 10px;
-}
-.dialog-footer {
-  text-align: left;
-  padding-top: 0;
-  margin-left: 150px;
-}
-.app-container {
-  flex: 1;
-  justify-content: space-between;
-  font-size: 14px;
-  padding-right: 8px;
-  .block {
-    float: left;
-    min-width: 250px;
+  .edit-input {
+    padding-right: 100px;
   }
-  .clear-left {
-    clear: left;
+  .cancel-btn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
   }
-}
+  .dialog-footer {
+    text-align: left;
+    padding-top: 0;
+    margin-left: 150px;
+  }
+  .app-container {
+    flex: 1;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-right: 8px;
+    .block {
+      float: left;
+      min-width: 250px;
+    }
+    .clear-left {
+      clear: left;
+    }
+  }
 </style>

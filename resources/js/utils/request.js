@@ -9,7 +9,7 @@ const service = window.axios.create({
 });
 
 // Request intercepter
-service.interceptors.request.use(
+service.interceptors.request.use( // Laravue switched to Laravel Sanctum for authentication !!
   config => {
     // const token = isLogged();
     // if (token) {

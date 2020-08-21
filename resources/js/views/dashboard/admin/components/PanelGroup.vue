@@ -83,7 +83,7 @@ export default {
       var messages = await fetchMessagesNumber();
       console.log(messages);
       this.endValMsg = messages.messagesCount;
-    }
+    },
   },
 };
 </script>
