@@ -17,7 +17,7 @@
     </div>
 
     <el-table v-loading="loading" :data="list" border fit highlight-current-row style="width: 100%">
-      <el-table-column align="center" label="ID" width="80">
+      <el-table-column align="center" label="N." width="80">
         <template slot-scope="scope">
           <span>{{ scope.row.index }}</span>
         </template>
@@ -272,15 +272,13 @@ export default {
     },
 
     async getList() {
-      // console.log(this.query);
       const { limit, page } = this.query;
-      // console.log(limit);
-      // console.log(page);
       this.loading = true;
+      // console.log(await userResource.list(this.query));
       const { data, meta } = await userResource.list(this.query); // API
       this.list = data;
       this.list.forEach((element, index) => {
-        element['index'] = (page - 1) * limit + index + 1;
+        element['index'] = (page - 1) * limit + index + 1; // add 'index' number to each list item
       });
       this.total = meta.total;
       this.loading = false;

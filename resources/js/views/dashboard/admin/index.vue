@@ -5,6 +5,22 @@
     <panel-group @handleSetLineChartData="handleSetLineChartData" />
 
     <el-row style="background:#fff;padding:16px 16px 0;margin-bottom:32px;">
+      <div class="date-range-block">
+        <span class="card-panel-text">... work in progress ...  Select date:</span>
+        <el-date-picker
+          v-model="value2"
+          class="date-range-input"
+          type="daterange"
+          align="right"
+          unlink-panels
+          range-separator="To"
+          start-placeholder="Start date"
+          end-placeholder="End date"
+          :picker-options="pickerOptions"
+        />
+        <el-button class="el-button el-button--primary el-button--mini" @click="refreshLineChartByDates">Apply</el-button>
+      </div>
+
       <line-chart :chart-data="lineChartData" />
     </el-row>
 
@@ -86,16 +102,57 @@ export default {
   data() {
     return {
       lineChartData: lineChartData.newVisitis,
+      pickerOptions: {
+        disabledDate(time) {
+          return time.getTime() > Date.now();
+        },
+        shortcuts: [{
+          text: 'Last week',
+          onClick(picker) {
+            const end = new Date();
+            const start = new Date();
+            start.setTime(start.getTime() - 3600 * 1000 * 24 * 7);
+            picker.$emit('pick', [start, end]);
+          },
+        }, {
+          text: 'Last month',
+          onClick(picker) {
+            const end = new Date();
+            const start = new Date();
+            start.setTime(start.getTime() - 3600 * 1000 * 24 * 30);
+            picker.$emit('pick', [start, end]);
+          },
+        }, {
+          text: 'Last 3 months',
+          onClick(picker) {
+            const end = new Date();
+            const start = new Date();
+            start.setTime(start.getTime() - 3600 * 1000 * 24 * 90);
+            picker.$emit('pick', [start, end]);
+          },
+        }],
+      },
+      value2: '',
     };
   },
   methods: {
     handleSetLineChartData(type) {
       this.lineChartData = lineChartData[type];
     },
+    refreshLineChartByDates() { // work in progress..
+      this.lineChartData = {
+        expectedData: [800, 100, 1721, 1104, 1705, 990, 1200],
+        actualData: [1720, 990, 1400, 1938, 1442, 1310, 1030],
+      };
+    },
   },
 };
 </script>
-
+<style rel="stylesheet/scss" lang="scss"> /* without scope ! */
+    .el-date-editor .el-range-separator {
+      width: 7%;
+    }
+</style>
 <style rel="stylesheet/scss" lang="scss" scoped>
   .dashboard-editor-container {
     padding: 32px;
@@ -104,6 +161,15 @@ export default {
       background: #fff;
       padding: 16px 16px 0;
       margin-bottom: 32px;
+    }
+  }
+  .date-range-block {
+    text-align: right;
+    margin-bottom: 20px;
+    button {
+      height: 35px;
+      position: relative;
+      top: -1px;
     }
   }
 </style>

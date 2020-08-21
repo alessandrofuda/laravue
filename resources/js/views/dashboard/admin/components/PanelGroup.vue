@@ -81,7 +81,7 @@ export default {
     },
     async countMessages() {
       var messages = await fetchMessagesNumber();
-      console.log(messages);
+      // console.log(messages);
       this.endValMsg = messages.messagesCount;
     },
   },
