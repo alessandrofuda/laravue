@@ -7,3 +7,11 @@ export function fetchList(query) {
     params: query,
   });
 }
+
+export function getAmountsByDateRange(dateRange) {
+  return request({
+    url: '/orders-amounts-by-date-range',
+    method: 'get',
+    params: dateRange,
+  });
+}

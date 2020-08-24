@@ -38,10 +38,10 @@ class AuthController extends BaseController
     }
 
     /**
-     * @param Request $request
+     * // @ param Request $request
      * @return \Illuminate\Http\JsonResponse
      */
-    public function logout(Request $request)
+    public function logout()  // Request $request
     {
         Auth::guard('web')->logout();
         return response()->json((new JsonResponse())->success([]), Response::HTTP_OK);

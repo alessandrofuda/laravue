@@ -78,6 +78,17 @@ Route::get('/orders', function () {
     return response()->json(new JsonResponse(['items' => $data]));
 });
 
+Route::get('orders-amounts-by-date-range', function(Request $request) {
+
+    // dump($request[0]);
+    // dump($request[1]);
+
+    $expectedData = [800, 100, 1721, 1104, 1705, 990, 1200];
+    $actualData = [1720, 990, 1400, 1938, 1442, 1310, 1030];
+    // dd(['expectedData' => $expectedData, 'actualData' => $actualData]);
+    return response()->json(['expectedData' => $expectedData, 'actualData' => $actualData]);
+});
+
 Route::get('/articles', function () {
     $rowsNumber = 10;
     $data = [];

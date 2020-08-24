@@ -66,6 +66,7 @@ import BarChart from './components/BarChart';
 import TransactionTable from './components/TransactionTable';
 import TodoList from './components/TodoList';
 import BoxCard from './components/BoxCard';
+import { getAmountsByDateRange } from '@/api/order';
 
 const lineChartData = {
   newVisitis: {
@@ -133,17 +134,24 @@ export default {
         }],
       },
       datesRange: '',
+      // expectedData: [],
+      // actualData: [],
     };
   },
   methods: {
     handleSetLineChartData(type) {
       this.lineChartData = lineChartData[type];
     },
-    refreshLineChartByDates() { // work in progress..
-      console.log(this.datesRange);
+    async refreshLineChartByDates() { // work in progress..
+      var { actualData, expectedData } = await getAmountsByDateRange(this.datesRange);
+      // getAmountsByDateRange(this.datesRange).then(response => {
+      //   console.log(response)
+      //   this.expectedData = response.expectedData;
+      //   this.actualData = response.actualData;
+      // });
       this.lineChartData = {
-        expectedData: [800, 100, 1721, 1104, 1705, 990, 1200],
-        actualData: [1720, 990, 1400, 1938, 1442, 1310, 1030],
+        expectedData: expectedData, // [800, 100, 1721, 1104, 1705, 990, 1200],
+        actualData: actualData, // [1720, 990, 1400, 1938, 1442, 1310, 1030],
       };
     },
   },
