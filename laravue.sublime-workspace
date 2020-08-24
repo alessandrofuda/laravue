@@ -531,7 +531,7 @@
 			"file": "resources/js/views/dashboard/admin/index.vue",
 			"settings":
 			{
-				"buffer_size": 3031,
+				"buffer_size": 5110,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -623,36 +623,56 @@
 		"/home/alessandro/Code/laravue/resources/js/views/dashboard",
 		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin",
 		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components",
-		"/home/alessandro/Code/laravue/routes"
+		"/home/alessandro/Code/laravue/resources/js/views/users"
 	],
 	"file_history":
 	[
+		"/home/alessandro/Code/laravue/resources/js/views/articles/components/ArticleDetail.vue",
 		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components/PanelGroup.vue",
-		"/home/alessandro/Code/laravue/resources/js/api/article.js",
+		"/home/alessandro/Code/laravue/node_modules/element-ui/lib/date-picker.js",
+		"/home/alessandro/Code/laravue/node_modules/element-ui/packages/date-picker/src/picker/date-picker.js",
+		"/home/alessandro/Code/laravue/resources/js/router/modules/admin.js",
+		"/home/alessandro/Code/laravue/resources/js/views/users/List.vue",
+		"/home/alessandro/Code/laravue/resources/js/api/user.js",
+		"/home/alessandro/Code/laravue/resources/js/api/resource.js",
 		"/home/alessandro/Code/laravue/routes/api.php",
+		"/home/alessandro/Code/laravue/app/Http/Controllers/Api/UserController.php",
+		"/home/alessandro/Code/laravue/app/Http/Resources/UserResource.php",
+		"/home/alessandro/Code/laravue/vendor/laravel/framework/src/Illuminate/Http/Resources/Json/JsonResource.php",
+		"/home/alessandro/Code/laravue/vendor/spatie/laravel-permission/src/Traits/HasPermissions.php",
+		"/home/alessandro/Code/laravue/app/Http/Controllers/Api/BaseController.php",
+		"/home/alessandro/Code/laravue/resources/js/views/login/index.vue",
+		"/home/alessandro/Code/laravue/resources/js/utils/request.js",
+		"/home/alessandro/Code/laravue/resources/js/store/modules/user.js",
+		"/home/alessandro/Code/laravue/resources/js/api/auth.js",
+		"/home/alessandro/Code/laravue/resources/js/api/order.js",
+		"/home/alessandro/Code/laravue/resources/js/api/article.js",
+		"/home/alessandro/Code/laravue/resources/js/utils/auth.js",
+		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/index.vue",
+		"/home/alessandro/Code/laravue/resources/js/bootstrap.js",
+		"/home/alessandro/Code/laravue/resources/js/app.js",
+		"/home/alessandro/Code/laravue/config/sanctum.php",
+		"/home/alessandro/Code/laravue/composer.json",
+		"/home/alessandro/Code/laravue/resources/js/permission.js",
+		"/home/alessandro/Code/laravue/resources/js/store/index.js",
+		"/home/alessandro/Code/laravue/resources/js/store/getters.js",
+		"/home/alessandro/Code/laravue/resources/js/settings.js",
 		"/home/alessandro/Code/laravue/resources/js/views/table/DragTable.vue",
 		"/home/alessandro/Code/laravue/node_modules/element-ui/packages/calendar/src/main.vue",
 		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components/TransactionTable.vue",
-		"/home/alessandro/Code/laravue/resources/js/api/user.js",
-		"/home/alessandro/Code/laravue/resources/js/api/resource.js",
 		"/home/alessandro/Code/laravue/node_modules/element-ui/packages/alert/src/main.vue",
 		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components/TodoList/index.vue",
 		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components/TodoList/index.scss",
 		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components/TodoList/Todo.vue",
 		"/home/alessandro/Code/laravue/resources/js/router/modules/table.js",
-		"/home/alessandro/Code/laravue/resources/js/utils/request.js",
 		"/home/alessandro/Code/laravue/docker-compose.yml",
 		"/home/alessandro/Code/laravue/.env",
-		"/home/alessandro/Code/laravue/app/Http/Resources/UserResource.php",
-		"/home/alessandro/Code/laravue/resources/js/bootstrap.js",
 		"/home/alessandro/Code/laravue/resources/js/views/dashboard/index.vue",
 		"/home/alessandro/Code/laravue/resources/js/utils/validate.js",
 		"/home/alessandro/Code/laravue/resources/js/utils/index.js",
-		"/home/alessandro/Code/laravue/resources/js/utils/auth.js",
 		"/home/alessandro/Code/laravue/Dockerfile",
 		"/home/alessandro/Code/laravue/laravue-entrypoint.sh",
 		"/home/alessandro/Code/laravue/docker/docker.env",
-		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/index.vue",
 		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components/PieChart.vue",
 		"/tmp/sublime-sftp-browse-1597832640/Fotovoltaiconorditalia_Server_Remoto/var/www/html/wp-content/debug.log",
 		"/tmp/sublime-sftp-browse-1597832716/Fotovoltaiconorditalia_Server_Remoto/var/www/html/wp-config.php",
@@ -660,7 +680,6 @@
 		"/home/alessandro/Code/laravue/node_modules/vue-count-to/dist/vue-count-to.min.js",
 		"/home/alessandro/Code/laravue/resources/js/components/GithubCorner/index.vue",
 		"/home/alessandro/Code/laravue/README.md",
-		"/home/alessandro/Code/laravue/resources/js/api/auth.js",
 		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/store/modules/user/mutation-types.js",
 		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/store/modules/user/mutations.js",
 		"/home/alessandro/Code/biz-manager-crater/resources/assets/js/store/index.js",
@@ -735,26 +754,7 @@
 		"/home/alessandro/Code/crater/resources/assets/js/store/modules/user/index.js",
 		"/home/alessandro/Code/crater/resources/assets/js/store/index.js",
 		"/home/alessandro/Code/crater/resources/assets/js/store/getters.js",
-		"/home/alessandro/Code/crater/resources/assets/js/views/layouts/LayoutBasic.vue",
-		"/home/alessandro/Code/crater/resources/assets/js/plugins/en.json",
-		"/home/alessandro/Code/crater/resources/assets/js/views/layouts/LayoutLogin.vue",
-		"/home/alessandro/Code/crater/resources/assets/js/views/layouts/LayoutWizard.vue",
-		"/home/alessandro/Code/crater/resources/assets/js/views/dashboard/Dashboard.vue",
-		"/home/alessandro/Code/crater/routes/web.php",
-		"/home/alessandro/Code/crater/resources/views/app.blade.php",
-		"/home/alessandro/Code/crater/config/app.php",
-		"/home/alessandro/Code/crater/resources/lang/en/pagination.php",
-		"/home/alessandro/Code/crater/resources/lang/en/auth.php",
-		"/home/alessandro/Code/crater/resources/lang/en/passwords.php",
-		"/home/alessandro/Code/crater/resources/lang/en/validation.php",
-		"/home/alessandro/Code/crater/resources/assets/js/views/auth/Login.vue",
-		"/home/alessandro/Code/crater/resources/assets/js/components/chartjs/LineChart.vue",
-		"/home/alessandro/Code/crater/resources/assets/js/store/modules/dashboard/actions.js",
-		"/home/alessandro/Code/crater/resources/assets/js/store/modules/dashboard/mutation-types.js",
-		"/home/alessandro/Code/crater/resources/assets/js/store/modules/dashboard/mutations.js",
-		"/home/alessandro/Code/crater/resources/assets/js/store/modules/dashboard/index.js",
-		"/home/alessandro/Code/crater/resources/assets/js/store/modules/dashboard/getters.js",
-		"/home/alessandro/Code/crater/composer.json"
+		"/home/alessandro/Code/crater/resources/assets/js/views/layouts/LayoutBasic.vue"
 	],
 	"find":
 	{
@@ -765,6 +765,7 @@
 		"height": 101.0,
 		"where_history":
 		[
+			"*.vue",
 			"*.*",
 			"*.js",
 			"*.vue",
@@ -782,6 +783,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"el-date-picker",
+			"eldatepicker",
+			"handleSetLineChartData",
+			"console.log",
+			"query",
+			"highlight-current-row",
+			"admin",
+			"admini",
+			"store",
+			"ref",
+			"refs",
+			"$refs",
+			"login",
 			"lineChartData",
 			"handler",
 			"elr",
@@ -852,8 +866,8 @@
 						"selection":
 						[
 							[
-								3082,
-								3082
+								635,
+								635
 							]
 						],
 						"settings":
@@ -866,7 +880,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 970.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -878,15 +892,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3031,
+						"buffer_size": 5110,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2940,
-								2940
+								715,
+								715
 							]
 						],
 						"settings":
@@ -894,12 +908,12 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1122.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -918,8 +932,8 @@
 						"selection":
 						[
 							[
-								723,
-								723
+								1152,
+								1152
 							]
 						],
 						"settings":
@@ -932,7 +946,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 528.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -994,8 +1008,44 @@
 		"selected_items":
 		[
 			[
+				"panelgroup",
+				"resources/js/views/dashboard/admin/components/PanelGroup.vue"
+			],
+			[
+				"datepicker",
+				"node_modules/element-ui/packages/date-picker/src/picker/date-picker.js"
+			],
+			[
+				"datepi",
+				"node_modules/element-ui/lib/date-picker.js"
+			],
+			[
+				"dashboardadmin",
+				"resources/js/views/dashboard/admin/index.vue"
+			],
+			[
+				"usercontroller",
+				"app/Http/Controllers/Api/UserController.php"
+			],
+			[
 				"routesapi",
 				"routes/api.php"
+			],
+			[
+				"utilsrequestjs",
+				"resources/js/utils/request.js"
+			],
+			[
+				"panelgroup.vue",
+				"resources/js/views/dashboard/admin/components/PanelGroup.vue"
+			],
+			[
+				"composer json",
+				"composer.json"
+			],
+			[
+				"sanctum",
+				"config/sanctum.php"
 			],
 			[
 				"dockercompose",
@@ -1468,42 +1518,6 @@
 			[
 				"Magento\\Customer\\Api\\Data\\CustomerInterface",
 				"vendor/magento/module-customer/Api/Data/CustomerInterface.php"
-			],
-			[
-				"Http",
-				"vendor/magento/framework/App/Http.php"
-			],
-			[
-				"Magento\\Eav\\Model\\Entity\\Attribute\\AbstractAttribute",
-				"vendor/magento/module-eav/Model/Entity/Attribute/AbstractAttribute.php"
-			],
-			[
-				"\\Magento\\Eav\\Model\\Entity\\Attribute",
-				"vendor/magento/module-eav/Model/Entity/Attribute.php"
-			],
-			[
-				"\\Magento\\Eav\\Model\\Attribute",
-				"vendor/magento/module-eav/Model/Attribute.php"
-			],
-			[
-				"Magento\\Customer\\Model\\Attribute",
-				"vendor/magento/module-customer/Model/Attribute.php"
-			],
-			[
-				"module-customercustomerrepository.php",
-				"vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php"
-			],
-			[
-				"customerrepositoryinterface",
-				"vendor/magento/module-customer/Api/CustomerRepositoryInterface.php"
-			],
-			[
-				"customer/controller/account/edit",
-				"vendor/magento/module-customer/Controller/Account/EditPost.php"
-			],
-			[
-				"magento/module-eav/Model/Attribute/Data/Text.php",
-				"vendor/magento/module-eav/Model/Attribute/Data/Text.php"
 			]
 		],
 		"width": 0.0

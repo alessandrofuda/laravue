@@ -8,7 +8,7 @@
       <div class="date-range-block">
         <span class="card-panel-text">... work in progress ...  Select date:</span>
         <el-date-picker
-          v-model="value2"
+          v-model="datesRange"
           class="date-range-input"
           type="daterange"
           align="right"
@@ -132,7 +132,7 @@ export default {
           },
         }],
       },
-      value2: '',
+      datesRange: '',
     };
   },
   methods: {
@@ -140,6 +140,7 @@ export default {
       this.lineChartData = lineChartData[type];
     },
     refreshLineChartByDates() { // work in progress..
+      console.log(this.datesRange);
       this.lineChartData = {
         expectedData: [800, 100, 1721, 1104, 1705, 990, 1200],
         actualData: [1720, 990, 1400, 1938, 1442, 1310, 1030],

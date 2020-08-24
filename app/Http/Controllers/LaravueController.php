@@ -25,4 +25,6 @@ class LaravueController extends Controller
     {
         return view('laravue');
     }
+
+
 }
