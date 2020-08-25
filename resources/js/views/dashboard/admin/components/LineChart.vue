@@ -78,10 +78,10 @@ export default {
         this.__resizeHandler();
       }
     },
-    setOptions({ expectedData, actualData } = {}) {
+    setOptions({ expectedData, actualData, xAxisData } = {}) {
       this.chart.setOption({
         xAxis: {
-          data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'], // https://www.telerik.com/blogs/how-to-use-a-vue-line-chart-ui-component-in-your-web-app
+          data: xAxisData, // ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
           boundaryGap: false,
           axisTick: {
             show: false,

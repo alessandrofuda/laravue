@@ -68,20 +68,25 @@ import TodoList from './components/TodoList';
 import BoxCard from './components/BoxCard';
 import { getAmountsByDateRange } from '@/api/order';
 
+const xAxisData = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 const lineChartData = {
   newVisitis: {
+    xAxisData: xAxisData,
     expectedData: [100, 120, 161, 134, 105, 160, 165],
     actualData: [120, 82, 91, 154, 162, 140, 145],
   },
   messages: {
+    xAxisData: xAxisData,
     expectedData: [200, 192, 120, 144, 160, 130, 140],
     actualData: [180, 160, 151, 106, 145, 150, 130],
   },
   purchases: {
+    xAxisData: xAxisData,
     expectedData: [80, 100, 121, 104, 105, 90, 100],
     actualData: [120, 90, 100, 138, 142, 130, 130],
   },
   shoppings: {
+    xAxisData: xAxisData,
     expectedData: [130, 140, 141, 142, 145, 150, 160],
     actualData: [120, 82, 91, 154, 162, 140, 130],
   },
@@ -134,8 +139,6 @@ export default {
         }],
       },
       datesRange: '',
-      // expectedData: [],
-      // actualData: [],
     };
   },
   methods: {
@@ -144,14 +147,9 @@ export default {
     },
     async refreshLineChartByDates() { // work in progress..
       var { actualData, expectedData } = await getAmountsByDateRange(this.datesRange);
-      // getAmountsByDateRange(this.datesRange).then(response => {
-      //   console.log(response)
-      //   this.expectedData = response.expectedData;
-      //   this.actualData = response.actualData;
-      // });
       this.lineChartData = {
-        expectedData: expectedData, // [800, 100, 1721, 1104, 1705, 990, 1200],
-        actualData: actualData, // [1720, 990, 1400, 1938, 1442, 1310, 1030],
+        expectedData: expectedData,
+        actualData: actualData,
       };
     },
   },
