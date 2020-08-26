@@ -531,7 +531,7 @@
 			"file": "resources/js/views/dashboard/admin/index.vue",
 			"settings":
 			{
-				"buffer_size": 5110,
+				"buffer_size": 5379,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -540,7 +540,7 @@
 			"file": "resources/js/views/dashboard/admin/components/LineChart.vue",
 			"settings":
 			{
-				"buffer_size": 3580,
+				"buffer_size": 3605,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -758,7 +758,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -892,15 +892,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5110,
+						"buffer_size": 5379,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								715,
-								715
+								0,
+								0
 							]
 						],
 						"settings":
@@ -925,15 +925,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3580,
+						"buffer_size": 3605,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1152,
-								1152
+								0,
+								0
 							]
 						],
 						"settings":
