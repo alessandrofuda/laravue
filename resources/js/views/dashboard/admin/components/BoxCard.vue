@@ -6,7 +6,7 @@
     <div style="position:relative;">
       <pan-thumb :image="avatar" class="panThumb" />
       <div class="mallki-text">
-        Laravue
+        Example
       </div>
       <div style="padding-top:35px;" class="progress-item">
         <span>Laravel</span>

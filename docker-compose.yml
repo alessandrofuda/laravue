@@ -9,9 +9,7 @@ services:
       - ./:/var/www
       - ./docker/docker.env:/var/www/.env
     ports:
-      # - "8000:8000"
-      - "8000:80"
-
+      - "8000:8000"
     depends_on:
       - mysql
       - redis

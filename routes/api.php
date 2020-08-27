@@ -67,7 +67,7 @@ Route::get('/orders', function () {
     $data = [];
     for ($rowIndex = 0; $rowIndex < $rowsNumber; $rowIndex++) {
         $row = [
-            'order_no' => 'LARAVUE' . mt_rand(1000000, 9999999),
+            'order_no' => 'DEMO' . mt_rand(1000000, 9999999),
             'price' => mt_rand(10000, 999999),
             'status' => Faker::randomInArray(['success', 'pending']),
         ];
