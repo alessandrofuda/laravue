@@ -9,6 +9,7 @@ export function fetchList(query) {
 }
 
 export function getAmountsByDateRange(dateRange) {
+  console.log(dateRange);
   return request({
     url: '/orders-amounts-by-date-range',
     method: 'get',

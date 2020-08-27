@@ -523,7 +523,7 @@
 			"file": "resources/js/router/index.js",
 			"settings":
 			{
-				"buffer_size": 6691,
+				"buffer_size": 6678,
 				"line_ending": "Unix"
 			}
 		},
@@ -627,6 +627,7 @@
 	],
 	"file_history":
 	[
+		"/tmp/sublime-sftp-browse-1598538821/alessandrofuda_Remote_Server/var/www/alessandrofuda.it/html/index.php",
 		"/home/alessandro/Code/laravue/resources/js/views/articles/components/ArticleDetail.vue",
 		"/home/alessandro/Code/laravue/resources/js/views/dashboard/admin/components/PanelGroup.vue",
 		"/home/alessandro/Code/laravue/node_modules/element-ui/lib/date-picker.js",
@@ -753,8 +754,7 @@
 		"/home/alessandro/Code/crater/resources/assets/js/store/mutation-types.js",
 		"/home/alessandro/Code/crater/resources/assets/js/store/modules/user/index.js",
 		"/home/alessandro/Code/crater/resources/assets/js/store/index.js",
-		"/home/alessandro/Code/crater/resources/assets/js/store/getters.js",
-		"/home/alessandro/Code/crater/resources/assets/js/views/layouts/LayoutBasic.vue"
+		"/home/alessandro/Code/crater/resources/assets/js/store/getters.js"
 	],
 	"find":
 	{
@@ -850,7 +850,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -859,15 +859,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6691,
+						"buffer_size": 6678,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								635,
-								635
+								0,
+								0
 							]
 						],
 						"settings":
@@ -916,7 +916,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -946,10 +946,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 375.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

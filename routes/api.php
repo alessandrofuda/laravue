@@ -1,11 +1,13 @@
 <?php
 
-use App\Http\Resources\UserResource;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use \App\Laravue\Faker;
+use App\Http\Resources\UserResource;
 use \App\Laravue\JsonResponse;
+use Illuminate\Http\Request;
+use Carbon\CarbonPeriod;
+use \App\Laravue\Faker;
 use \App\Laravue\Acl;
+use Carbon\Carbon;
 
 /*
 |--------------------------------------------------------------------------
@@ -80,13 +82,24 @@ Route::get('/orders', function () {
 
 Route::get('orders-amounts-by-date-range', function(Request $request) {
 
-    // dump($request[0]);
-    // dump($request[1]);
+    $dates = collect($request)->map(function ($date) {
+        $date = Carbon::createFromFormat('Y-m-d\TH:i:s.uO', $date);
+        $date->setTimezone('Europe/Rome');
+        return $date;
+    });
+    dump($dates);
+    $period = CarbonPeriod::create($dates[0], '1 day', $dates[1]);
+    $itemsPeriod = [];
+    foreach ($period as $key => $date) {
+        $itemsPeriod[] = $date->format('m-d');
+    }
+// 04-21, 04-24, 04-27
+    dd($itemsPeriod);
 
     $expectedData = [800, 100, 1721, 1104, 1705, 990, 1200];
     $actualData = [1720, 990, 1400, 1938, 1442, 1310, 1030];
-    // dd(['expectedData' => $expectedData, 'actualData' => $actualData]);
-    return response()->json(['expectedData' => $expectedData, 'actualData' => $actualData]);
+    $xAxisData = ['A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A'];
+    return response()->json(['expectedData' => $expectedData, 'actualData' => $actualData, 'xAxisData' => $xAxisData]);
 });
 
 Route::get('/articles', function () {

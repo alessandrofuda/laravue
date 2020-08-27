@@ -17,8 +17,9 @@
           start-placeholder="Start date"
           end-placeholder="End date"
           :picker-options="pickerOptions"
+          @change="refreshLineChartByDates"
         />
-        <el-button class="el-button el-button--primary el-button--mini" @click="refreshLineChartByDates">Apply</el-button>
+        <!-- <el-button class="el-button el-button--primary el-button--mini" @click="refreshLineChartByDates">Apply</el-button> -->
       </div>
 
       <line-chart :chart-data="lineChartData" />
@@ -146,10 +147,12 @@ export default {
       this.lineChartData = lineChartData[type];
     },
     async refreshLineChartByDates() { // work in progress..
-      var { actualData, expectedData } = await getAmountsByDateRange(this.datesRange);
+      // console.log(this.datesRange);
+      var { actualData, expectedData, xAxisData } = await getAmountsByDateRange(this.datesRange);
       this.lineChartData = {
         expectedData: expectedData,
         actualData: actualData,
+        xAxisData: xAxisData, // ['MAon', 'TuAe', 'Wsded', 'Tshu', 'aFri', 'Sat', 'Sun'],
       };
     },
   },
