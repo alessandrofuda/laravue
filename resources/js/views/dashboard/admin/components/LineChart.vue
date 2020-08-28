@@ -84,7 +84,7 @@ export default {
           data: xAxisData, // ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
           boundaryGap: false,
           axisTick: {
-            show: false,
+            show: true,
           },
         },
         grid: {

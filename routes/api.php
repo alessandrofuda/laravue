@@ -87,18 +87,16 @@ Route::get('orders-amounts-by-date-range', function(Request $request) {
         $date->setTimezone('Europe/Rome');
         return $date;
     });
-    dump($dates);
+
     $period = CarbonPeriod::create($dates[0], '1 day', $dates[1]);
     $itemsPeriod = [];
     foreach ($period as $key => $date) {
         $itemsPeriod[] = $date->format('m-d');
     }
-// 04-21, 04-24, 04-27
-    dd($itemsPeriod);
 
     $expectedData = [800, 100, 1721, 1104, 1705, 990, 1200];
     $actualData = [1720, 990, 1400, 1938, 1442, 1310, 1030];
-    $xAxisData = ['A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A'];
+    $xAxisData = $itemsPeriod;
     return response()->json(['expectedData' => $expectedData, 'actualData' => $actualData, 'xAxisData' => $xAxisData]);
 });
 

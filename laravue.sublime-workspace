@@ -531,7 +531,7 @@
 			"file": "resources/js/views/dashboard/admin/index.vue",
 			"settings":
 			{
-				"buffer_size": 5379,
+				"buffer_size": 5572,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -541,6 +541,15 @@
 			"settings":
 			{
 				"buffer_size": 3605,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node_modules/echarts/theme/macarons.js",
+			"settings":
+			{
+				"buffer_size": 5807,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -850,7 +859,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -883,7 +892,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -892,7 +901,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5379,
+						"buffer_size": 5572,
 						"regions":
 						{
 						},
@@ -916,7 +925,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -947,6 +956,39 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 375.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "node_modules/echarts/theme/macarons.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5312,
+								5312
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3060.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1007,6 +1049,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"maca",
+				"node_modules/echarts/theme/macarons.js"
+			],
 			[
 				"panelgroup",
 				"resources/js/views/dashboard/admin/components/PanelGroup.vue"
@@ -1514,10 +1560,6 @@
 			[
 				"Magento\\Customer\\Model\\Data\\Customer",
 				"vendor/magento/module-customer/Model/Data/Customer.php"
-			],
-			[
-				"Magento\\Customer\\Api\\Data\\CustomerInterface",
-				"vendor/magento/module-customer/Api/Data/CustomerInterface.php"
 			]
 		],
 		"width": 0.0
