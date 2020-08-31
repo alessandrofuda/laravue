@@ -20,8 +20,16 @@
           @change="refreshLineChartByDates"
         />
         <!-- <el-button class="el-button el-button--primary el-button--mini" @click="refreshLineChartByDates">Apply</el-button> -->
+        <div class="data-aggregation-block">
+          <div class="data-aggregation">
+            <el-radio-group v-model="aggregation" size="small" @change="setAggregationLevel">
+              <el-radio-button label="Daily" />
+              <el-radio-button label="Weekly" />
+              <el-radio-button label="Monthly" />
+            </el-radio-group>
+          </div>
+        </div>
       </div>
-
       <line-chart :chart-data="lineChartData" />
     </el-row>
 
@@ -42,7 +50,6 @@
         </div>
       </el-col>
     </el-row>
-
     <el-row :gutter="8">
       <el-col :xs="{span: 24}" :sm="{span: 24}" :md="{span: 24}" :lg="{span: 12}" :xl="{span: 12}" style="padding-right:8px;margin-bottom:30px;">
         <transaction-table />
@@ -108,6 +115,7 @@ export default {
   },
   data() {
     return {
+      aggregation: 'Daily',
       lineChartData: lineChartData.newVisitis,
       pickerOptions: {
         disabledDate(time) {
@@ -140,18 +148,26 @@ export default {
         }],
       },
       datesRange: '',
+      dataAggregationLevel: 'Daily',
     };
   },
   methods: {
+    setAggregationLevel(aggregationLevel) {
+      if (this.datesRange.length === 0) {
+        alert('Please select a date range before..');
+        return;
+      }
+      this.dataAggregationLevel = aggregationLevel;
+      this.refreshLineChartByDates();
+    },
     handleSetLineChartData(type) {
       this.lineChartData = lineChartData[type];
     },
     async refreshLineChartByDates() { // work in progress..
-      // console.log(this.datesRange);
-      var { actualData, expectedData, xAxisData } = await getAmountsByDateRange(this.datesRange);
+      var { actualData, expectedData, xAxisData } = await getAmountsByDateRange(this.datesRange, this.dataAggregationLevel);
       this.lineChartData = {
-        expectedData: expectedData,
         actualData: actualData,
+        expectedData: expectedData,
         xAxisData: xAxisData, // ['MAon', 'TuAe', 'Wsded', 'Tshu', 'aFri', 'Sat', 'Sun'],
       };
     },
@@ -181,5 +197,9 @@ export default {
       position: relative;
       top: -1px;
     }
+  }
+  .data-aggregation-block {
+    display: inline-block;
+    margin-left: 20px;
   }
 </style>

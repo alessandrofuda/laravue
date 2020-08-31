@@ -4,10 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Resources\UserResource;
 use \App\Laravue\JsonResponse;
 use Illuminate\Http\Request;
-use Carbon\CarbonPeriod;
 use \App\Laravue\Faker;
 use \App\Laravue\Acl;
-use Carbon\Carbon;
+// use \App\Http\Controllers\OrderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -63,42 +62,8 @@ Route::get('/table/list', function () {
 
     return response()->json(new JsonResponse(['items' => $data]));
 });
-
-Route::get('/orders', function () {
-    $rowsNumber = 8;
-    $data = [];
-    for ($rowIndex = 0; $rowIndex < $rowsNumber; $rowIndex++) {
-        $row = [
-            'order_no' => 'DEMO' . mt_rand(1000000, 9999999),
-            'price' => mt_rand(10000, 999999),
-            'status' => Faker::randomInArray(['success', 'pending']),
-        ];
-
-        $data[] = $row;
-    }
-
-    return response()->json(new JsonResponse(['items' => $data]));
-});
-
-Route::get('orders-amounts-by-date-range', function(Request $request) {
-
-    $dates = collect($request)->map(function ($date) {
-        $date = Carbon::createFromFormat('Y-m-d\TH:i:s.uO', $date);
-        $date->setTimezone('Europe/Rome');
-        return $date;
-    });
-
-    $period = CarbonPeriod::create($dates[0], '1 day', $dates[1]);
-    $itemsPeriod = [];
-    foreach ($period as $key => $date) {
-        $itemsPeriod[] = $date->format('m-d');
-    }
-
-    $expectedData = [800, 100, 1721, 1104, 1705, 990, 1200];
-    $actualData = [1720, 990, 1400, 1938, 1442, 1310, 1030];
-    $xAxisData = $itemsPeriod;
-    return response()->json(['expectedData' => $expectedData, 'actualData' => $actualData, 'xAxisData' => $xAxisData]);
-});
+Route::get('/orders', 'Api\OrderController@index')->name('orders');
+Route::get('orders-amounts-by-date-range', 'Api\OrderController@getByDatesRange')->name('get_by_dates_range');
 
 Route::get('/articles', function () {
     $rowsNumber = 10;

@@ -8,11 +8,13 @@ export function fetchList(query) {
   });
 }
 
-export function getAmountsByDateRange(dateRange) {
-  console.log(dateRange);
+export function getAmountsByDateRange(dateRange, aggregationLevel) {
   return request({
     url: '/orders-amounts-by-date-range',
     method: 'get',
-    params: dateRange,
+    params: {
+      dateRange,
+      aggregationLevel,
+    },
   });
 }
