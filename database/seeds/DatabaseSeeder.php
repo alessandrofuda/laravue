@@ -1,5 +1,6 @@
 <?php
 
+use App\Laravue\Acl;
 use App\Laravue\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
@@ -40,16 +41,19 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('laravue'),
         ]);
 
-        $adminRole = Role::findByName(\App\Laravue\Acl::ROLE_ADMIN);
-        $managerRole = Role::findByName(\App\Laravue\Acl::ROLE_MANAGER);
-        $editorRole = Role::findByName(\App\Laravue\Acl::ROLE_EDITOR);
-        $userRole = Role::findByName(\App\Laravue\Acl::ROLE_USER);
-        $visitorRole = Role::findByName(\App\Laravue\Acl::ROLE_VISITOR);
+        $adminRole = Role::findByName(Acl::ROLE_ADMIN);
+        $managerRole = Role::findByName(Acl::ROLE_MANAGER);
+        $editorRole = Role::findByName(Acl::ROLE_EDITOR);
+        $userRole = Role::findByName(Acl::ROLE_USER);
+        $visitorRole = Role::findByName(Acl::ROLE_VISITOR);
         $admin->syncRoles($adminRole);
         $manager->syncRoles($managerRole);
         $editor->syncRoles($editorRole);
         $user->syncRoles($userRole);
         $visitor->syncRoles($visitorRole);
+
+
         $this->call(UsersTableSeeder::class);
+        $this->call(OrdersTableSeeder::class);
     }
 }
