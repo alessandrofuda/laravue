@@ -164,6 +164,10 @@ export default {
       this.lineChartData = lineChartData[type];
     },
     async refreshLineChartByDates() { // work in progress..
+      if (!this.datesRange) {
+        this.lineChartData = lineChartData.newVisitis;
+        return;
+      }
       var { actualData, expectedData, xAxisData } = await getAmountsByDateRange(this.datesRange, this.dataAggregationLevel);
       this.lineChartData = {
         actualData: actualData,

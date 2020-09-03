@@ -44,7 +44,9 @@ class LineChart {
     }
 
     public function getChartData($dateRange, $aggregationLevel) {
-
+        if(!$dateRange) {
+            return [];
+        }
         $start_date = $this->setTimezoneToStartEndDates($dateRange)[0];
         $end_date = $this->setTimezoneToStartEndDates($dateRange)[1];
         $aggregationLevel_carbon_label = $this->setDataAggregationLevelForCarbon($aggregationLevel);
