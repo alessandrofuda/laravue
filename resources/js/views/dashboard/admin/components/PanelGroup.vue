@@ -22,9 +22,7 @@
           <div class="card-panel-text">
             Messages
           </div>
-          AAAAA
           <count-to :start-val="0" :end-val="endValMsg" :duration="3000" :decimals="0" :separator="separator" :decimal="decimal" class="card-panel-num" />
-          VVVVVV
         </div>
       </div>
     </el-col>
