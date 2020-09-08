@@ -92,19 +92,19 @@ export const constantRoutes = [
       },
     ],
   },
-  {
-    path: '/documentation',
-    component: Layout,
-    redirect: '/documentation/index',
-    children: [
-      {
-        path: 'index',
-        component: () => import('@/views/documentation/index'),
-        name: 'Documentation',
-        meta: { title: 'documentation', icon: 'documentation', noCache: true },
-      },
-    ],
-  },
+  // {
+  //   path: '/documentation',
+  //   component: Layout,
+  //   redirect: '/documentation/index',
+  //   // children: [
+  //   //   {
+  //   //     path: 'index',
+  //   //     component: () => import('@/views/documentation/index'),
+  //   //     name: 'Documentation',
+  //   //     meta: { title: 'documentation', icon: 'documentation', noCache: true },
+  //   //   },
+  //   // ],
+  // },
   {
     path: '/profile',
     component: Layout,

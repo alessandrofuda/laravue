@@ -531,7 +531,7 @@
 			"file": "resources/js/views/dashboard/admin/index.vue",
 			"settings":
 			{
-				"buffer_size": 6355,
+				"buffer_size": 6464,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -913,7 +913,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6355,
+						"buffer_size": 6464,
 						"regions":
 						{
 						},
@@ -1025,6 +1025,7 @@
 						],
 						"settings":
 						{
+							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
